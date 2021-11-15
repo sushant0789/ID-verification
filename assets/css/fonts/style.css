@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "KFWCentroSans";
+  src: url("fonts/KFWCentroSans-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/KFWCentroSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/KFWCentroSans-Bold.woff") format("woff"), url("fonts/KFWCentroSans-Bold.woff2") format("woff2"), url("fonts/KFWCentroSans-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "KFWCentroSansMedium";
+  src: url("fonts/KFWCentroSans-Med.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/KFWCentroSans-Med.eot?#iefix") format("embedded-opentype"), url("fonts/KFWCentroSans-Med.woff") format("woff"), url("fonts/KFWCentroSans-Med.woff2") format("woff2"), url("fonts/KFWCentroSans-Med.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "KFWCentroSans";
+  src: url("fonts/KFWCentroSans-Reg.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/KFWCentroSans-Reg.eot?#iefix") format("embedded-opentype"), url("fonts/KFWCentroSans-Reg.woff") format("woff"), url("fonts/KFWCentroSans-Reg.woff2") format("woff2"), url("fonts/KFWCentroSans-Reg.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "KFWCentroSans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
