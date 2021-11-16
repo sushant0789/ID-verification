@@ -22,5 +22,5 @@ $(document).on("click", ".auto-hide-btn", function () {
     $(".top-div").hide();
     $("fieldset").removeClass("active auto-hide-div");
     $(".last-div").addClass("active");
-  }, 1500);
+  }, 1000);
 });

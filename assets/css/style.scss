@@ -58,24 +58,14 @@ ul {
 .header {
   display: flex;
   flex-direction: row;
+  padding: 30px 0 10px;
 }
 
-#popup-wrap {
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-.popup {
+.wrapper {
   width: 1170px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -550px;
-  margin-top: -440px;
+  margin: auto;
+  max-width: 100%;
+  padding: 0 15px;
 }
 .width-short {
   width: 560px;
@@ -88,8 +78,6 @@ ul {
 }
 .logo {
   max-height: 50px;
-}
-.popup-main {
 }
 .color-bg {
   background-color: #f0eee1;
@@ -518,39 +506,18 @@ form {
   }
 }
 /*** Responsive for tablets ***/
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
-  .popup {
-    margin-top: 0;
-    top: 50px;
-  }
-}
-@media (min-width: 1025px) and (max-width: 1300px) {
-  .popup {
-    margin-top: 0;
-    top: 50px;
-  }
-}
 /*** Responsive for mobile ***/
 @media only screen and (max-width: 767px) {
   body {
     background-position: 0 0;
   }
-  .popup {
-    margin-top: 0;
-    top: 20px;
-  }
   .logo {
     max-width: 150px;
   }
-  .popup-main {
+  .main-content {
     margin: 15px 0 0;
   }
-  .popup.double {
-    width: 100%;
-    margin-left: auto;
-    padding: 0 15px;
-    left: auto;
-  }
+
   .steps-ul {
     height: auto;
   }
