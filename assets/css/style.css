@@ -83,20 +83,52 @@ ul {
   margin-top: -440px;
 }
 
-.popup.double {
+.width-short {
   width: 560px;
-  margin-left: -280px;
+  margin: auto;
+}
+
+.mr-left-50 img {
+  margin-left: 50px;
 }
 
 .logo {
   max-height: 50px;
 }
 
-.popup-main {
+.color-bg {
   background-color: #f0eee1;
-  border-radius: 10px;
   padding: 20px 30px;
-  margin: 30px 0 0;
+}
+
+.color-bg.flex-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-box-50 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-box-50 div {
+  width: 47%;
+}
+
+.flex-box-50 div .btn-box {
+  width: 100%;
 }
 
 form fieldset {
@@ -111,10 +143,15 @@ form fieldset.active {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .title-h1 {
   border-bottom: 3px solid #ccd392;
   padding: 0 0 20px;
   margin: 0 0 25px;
+  text-align: center;
 }
 
 .title-h2 {
@@ -140,16 +177,9 @@ form fieldset.active {
 .title-h3 {
   font-size: 21px;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-weight: 400;
+  font-weight: bold;
+  padding: 0 0 15px;
 }
 
 .title-h4 {
@@ -159,7 +189,7 @@ form fieldset.active {
 }
 
 .title-h5 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   padding: 10px 0;
   line-height: 18px;
@@ -170,7 +200,7 @@ form fieldset.active {
 }
 
 .title-h5.smaller {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .first-list {
@@ -181,7 +211,6 @@ form fieldset.active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 70%;
   padding: 15px 0;
 }
 
@@ -194,7 +223,7 @@ form fieldset.active {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 0 0 15px;
+  padding: 0 0 20px;
   font-size: 18px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -225,8 +254,24 @@ form fieldset.active {
   width: 90%;
 }
 
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-box div:first-child {
+  width: 75%;
+}
+
+.flex-box div:last-child {
+  width: 25%;
+}
+
 .steps-ul {
-  height: 420px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,13 +279,15 @@ form fieldset.active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 15px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .steps-ul li {
   list-style: none;
+  text-align: center;
+  padding: 0 0 15px;
 }
 
 .steps-ul li h6 {
@@ -249,22 +296,14 @@ form fieldset.active {
   display: inline-block;
 }
 
-.steps-ul li h6.selfie {
-  margin: 0 0 0 -15px;
-}
-
-.steps-ul li h6 img {
-  max-width: 200px;
-  max-height: 300px;
-}
-
 .steps-ul li ul {
   padding: 10px 0;
 }
 
 .steps-ul li ul li {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
+  padding: 0 0 5px;
 }
 
 .steps-ul li ul.padding-top20,
@@ -331,6 +370,15 @@ form fieldset.active {
   right: -10px;
 }
 
+.btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .next-btn,
 .close-btn {
   border: none;
@@ -394,7 +442,11 @@ form fieldset.active {
   color: red;
 }
 
-.camera-ul li {
+.steps-ul li ul.camera-ul {
+  padding: 30px 0;
+}
+
+.steps-ul li ul.camera-ul li {
   list-style: none;
   -webkit-box-flex: 1;
       -ms-flex: 1;

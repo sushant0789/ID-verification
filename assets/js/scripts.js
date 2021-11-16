@@ -12,10 +12,15 @@ $(document).on("click", ".next-btn", function () {
   $(this).closest("fieldset").next("fieldset").addClass("active");
 });
 
-$(document).on("click", ".expand", function () {
-  $(this).closest(".popup").addClass("double");
+$(document).on("click", ".hide", function () {
+  $(this).closest(".top-div").hide();
 });
 
-$(document).on("click", ".exit", function () {
-  $(this).closest(".popup").removeClass("double");
+$(document).on("click", ".auto-hide-btn", function () {
+  $(this).closest("fieldset").next("fieldset").addClass("auto-hide-div");
+  setTimeout(function () {
+    $(".top-div").hide();
+    $("fieldset").removeClass("active auto-hide-div");
+    $(".last-div").addClass("active");
+  }, 1500);
 });
