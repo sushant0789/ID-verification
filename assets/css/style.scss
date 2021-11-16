@@ -70,6 +70,7 @@ ul {
 .width-short {
   width: 560px;
   margin: auto;
+  max-width: 100%;
 }
 .mr-left-50 {
   img {
@@ -512,7 +513,7 @@ form {
     background-position: 0 0;
   }
   .logo {
-    max-width: 150px;
+    max-width: 120px;
   }
   .main-content {
     margin: 15px 0 0;
@@ -524,5 +525,38 @@ form {
   .mobile-ul {
     flex-direction: column;
     align-items: center;
+  }
+  .title-h1 {
+    font-size: 24px;
+    padding: 15px 0;
+  }
+  .title-h2 {
+    font-size: 21px;
+    padding: 0 0 15px;
+  }
+  .title-h3 {
+    font-size: 18px;
+  }
+  .flex-box,
+  .flex-box-50 {
+    flex-direction: column;
+    div:first-child,
+    div:last-child {
+      width: 100%;
+    }
+  }
+  .color-bg {
+    padding: 20px 15px;
+    margin: 0 0 20px;
+  }
+  .width-short {
+    width: auto;
+  }
+  .mr-left-50 img {
+    margin: 0;
+  }
+  .mobile-ul li,
+  .title-h2.width-60 {
+    width: 100%;
   }
 }
