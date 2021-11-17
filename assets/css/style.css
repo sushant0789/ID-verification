@@ -766,5 +766,11 @@ form fieldset.active {
   .title-h2.width-60 {
     width: 100%;
   }
+  br {
+    display: none;
+  }
+  .title-h2.smaller {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
