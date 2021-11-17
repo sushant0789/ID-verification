@@ -282,6 +282,33 @@ form fieldset.active {
           justify-content: center;
 }
 
+.steps-ul.first-step li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.steps-ul.first-step li h6 {
+  width: 40%;
+}
+
+.steps-ul.first-step li h5 {
+  width: 60%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: left;
+  padding: 0;
+}
+
 .steps-ul li {
   list-style: none;
   text-align: center;
