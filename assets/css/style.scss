@@ -213,19 +213,22 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  &.first-step li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 0;
-    h6 {
-      width: 40%;
-    }
-    h5 {
-      width: 60%;
-      justify-content: flex-start;
-      text-align: left;
-      padding: 0;
+  &.first-step {
+    padding: 40px 0 0;
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 0 0;
+      h6 {
+        width: 30%;
+      }
+      h5 {
+        width: 70%;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 0;
+      }
     }
   }
   li {

@@ -282,6 +282,10 @@ form fieldset.active {
           justify-content: center;
 }
 
+.steps-ul.first-step {
+  padding: 40px 0 0;
+}
+
 .steps-ul.first-step li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,15 +297,15 @@ form fieldset.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 0;
+  padding: 10px 0 0;
 }
 
 .steps-ul.first-step li h6 {
-  width: 40%;
+  width: 30%;
 }
 
 .steps-ul.first-step li h5 {
-  width: 60%;
+  width: 70%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
