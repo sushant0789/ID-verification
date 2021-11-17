@@ -82,6 +82,10 @@ ul {
   margin-left: 50px;
 }
 
+.mr-left-25 .title-h5 {
+  margin-left: 25px;
+}
+
 .logo {
   max-height: 50px;
 }
@@ -135,6 +139,9 @@ form fieldset.active {
 
 .text-center {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title-h1 {
@@ -153,9 +160,6 @@ form fieldset.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-weight: 400;
   padding: 0 0 30px;
 }
@@ -170,6 +174,10 @@ form fieldset.active {
   font-weight: 400;
   font-weight: bold;
   padding: 0 0 15px;
+}
+
+.title-h3.smaller {
+  font-size: 18px;
 }
 
 .title-h4 {
@@ -284,6 +292,10 @@ form fieldset.active {
   padding: 0 0 5px;
   position: relative;
   display: inline-block;
+}
+
+.steps-ul li h6.pd-tb40 {
+  padding: 40px 0;
 }
 
 .steps-ul li ul {

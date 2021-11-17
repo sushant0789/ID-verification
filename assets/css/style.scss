@@ -77,6 +77,11 @@ ul {
     margin-left: 50px;
   }
 }
+.mr-left-25 {
+  .title-h5 {
+    margin-left: 25px;
+  }
+}
 .logo {
   max-height: 50px;
 }
@@ -114,6 +119,7 @@ form {
 
 .text-center {
   text-align: center;
+  justify-content: center;
 }
 
 .title-h1 {
@@ -127,7 +133,6 @@ form {
   margin: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-weight: 400;
   padding: 0 0 30px;
   img {
@@ -141,6 +146,9 @@ form {
   font-weight: 400;
   font-weight: bold;
   padding: 0 0 15px;
+  &.smaller {
+    font-size: 18px;
+  }
 }
 .title-h4 {
   font-size: 18px;
@@ -213,6 +221,9 @@ form {
       padding: 0 0 5px;
       position: relative;
       display: inline-block;
+      &.pd-tb40 {
+        padding: 40px 0;
+      }
     }
     ul {
       padding: 10px 0;
