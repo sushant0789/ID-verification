@@ -12,10 +12,6 @@ $(document).on("click", ".next-btn", function () {
   $(this).closest("fieldset").next("fieldset").addClass("active");
 });
 
-$(document).on("click", ".hide", function () {
-  $(this).closest(".top-div").hide();
-});
-
 $(document).on("click", ".auto-hide-btn", function () {
   $(this).closest("fieldset").next("fieldset").addClass("auto-hide-div");
   setTimeout(function () {
