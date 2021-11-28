@@ -292,6 +292,10 @@ form fieldset.active {
   margin: auto;
 }
 
+.steps-ul.width300 li ul li {
+  list-style: outside;
+}
+
 .steps-ul.first-step {
   padding: 40px 0 0;
 }
@@ -827,7 +831,8 @@ form fieldset.active {
     margin: 0;
   }
   .mobile-ul li,
-  .title-h2.width-60 {
+  .title-h2.width-60,
+  .title-h5.smaller.width-60 {
     width: 100%;
   }
   br {
@@ -835,6 +840,18 @@ form fieldset.active {
   }
   .title-h2.smaller {
     font-size: 18px;
+  }
+  .steps-ul.first-step {
+    padding: 0 0 25px;
+  }
+  .steps-ul.width300 {
+    width: 100%;
+  }
+  .steps-ul.width300 li ul {
+    padding: 0 0 0 15px;
+  }
+  .mr-left-25 .title-h5 {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -219,6 +219,9 @@ form {
   &.width300 {
     width: 300px;
     margin: auto;
+    li ul li {
+      list-style: outside;
+    }
   }
   &.first-step {
     padding: 40px 0 0;
@@ -608,7 +611,8 @@ form {
     margin: 0;
   }
   .mobile-ul li,
-  .title-h2.width-60 {
+  .title-h2.width-60,
+  .title-h5.smaller.width-60 {
     width: 100%;
   }
   br {
@@ -616,5 +620,17 @@ form {
   }
   .title-h2.smaller {
     font-size: 18px;
+  }
+  .steps-ul.first-step {
+    padding: 0 0 25px;
+  }
+  .steps-ul.width300 {
+    width: 100%;
+    li ul {
+      padding: 0 0 0 15px;
+    }
+  }
+  .mr-left-25 .title-h5 {
+    margin: 0;
   }
 }
