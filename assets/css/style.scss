@@ -89,6 +89,7 @@ ul {
 .color-bg {
   background-color: #fdf6ef;
   padding: 20px 30px;
+  position: relative;
   &.flex-space {
     display: flex;
     flex-direction: column;
@@ -172,7 +173,7 @@ form {
 .first-list {
   display: flex;
   flex-direction: column;
-  padding: 15px 0 5px;
+  padding: 50px 0;
   li {
     list-style: none;
     display: flex;
@@ -223,6 +224,10 @@ form {
       list-style: outside;
     }
   }
+  &.height380 {
+    height: 380px;
+    justify-content: space-evenly;
+  }
   &.first-step {
     padding: 40px 0 0;
     li {
@@ -244,7 +249,7 @@ form {
   li {
     list-style: none;
     text-align: center;
-    padding: 0 0 15px;
+    padding: 0;
     &.text-left,
     &.text-left ul li {
       text-align: left;
@@ -253,12 +258,12 @@ form {
       padding: 0 0 5px;
       position: relative;
       display: inline-block;
-      &.pd-tb40 {
-        padding: 40px 0;
+      &.pd-tb10 {
+        padding: 10px 0;
       }
     }
     ul {
-      padding: 10px 0;
+      padding: 10px 0 0;
       li {
         font-size: 16px;
         line-height: 18px;
@@ -317,6 +322,10 @@ form {
 .btn-box {
   display: flex;
   justify-content: center;
+  /* position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%; */
 }
 .next-btn,
 .close-btn {
@@ -369,7 +378,6 @@ form {
   font-size: 13px;
   font-weight: 400;
   padding: 0 0 10px;
-  color: red;
 }
 .steps-ul li ul.camera-ul {
   padding: 30px 0;
@@ -381,7 +389,7 @@ form {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    padding: 60px 10px;
+    padding: 85px 10px;
   }
 }
 .camera-ul2 {
@@ -632,5 +640,11 @@ form {
   }
   .mr-left-25 .title-h5 {
     margin: 0;
+  }
+  .first-list {
+    padding: 15px 0;
+  }
+  .steps-ul.height380 {
+    height: auto;
   }
 }

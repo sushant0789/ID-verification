@@ -94,6 +94,7 @@ ul {
 .color-bg {
   background-color: #fdf6ef;
   padding: 20px 30px;
+  position: relative;
 }
 
 .color-bg.flex-space {
@@ -210,7 +211,7 @@ form fieldset.active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 15px 0 5px;
+  padding: 50px 0;
 }
 
 .first-list li {
@@ -296,6 +297,13 @@ form fieldset.active {
   list-style: outside;
 }
 
+.steps-ul.height380 {
+  height: 380px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .steps-ul.first-step {
   padding: 40px 0 0;
 }
@@ -330,7 +338,7 @@ form fieldset.active {
 .steps-ul li {
   list-style: none;
   text-align: center;
-  padding: 0 0 15px;
+  padding: 0;
 }
 
 .steps-ul li.text-left,
@@ -344,12 +352,12 @@ form fieldset.active {
   display: inline-block;
 }
 
-.steps-ul li h6.pd-tb40 {
-  padding: 40px 0;
+.steps-ul li h6.pd-tb10 {
+  padding: 10px 0;
 }
 
 .steps-ul li ul {
-  padding: 10px 0;
+  padding: 10px 0 0;
 }
 
 .steps-ul li ul li {
@@ -429,6 +437,10 @@ form fieldset.active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  /* position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%; */
 }
 
 .next-btn,
@@ -491,7 +503,6 @@ form fieldset.active {
   font-size: 13px;
   font-weight: 400;
   padding: 0 0 10px;
-  color: red;
 }
 
 .steps-ul li ul.camera-ul {
@@ -514,7 +525,7 @@ form fieldset.active {
   display: flex;
   align-items: center;
   border-radius: 10px;
-  padding: 60px 10px;
+  padding: 85px 10px;
 }
 
 .camera-ul2 {
@@ -852,6 +863,12 @@ form fieldset.active {
   }
   .mr-left-25 .title-h5 {
     margin: 0;
+  }
+  .first-list {
+    padding: 15px 0;
+  }
+  .steps-ul.height380 {
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
