@@ -12,11 +12,11 @@ $(document).on("click", ".next-btn", function () {
   $(this).closest("fieldset").next("fieldset").addClass("active");
 });
 
-$(document).on("click", ".auto-hide-btn", function () {
-  $(this).closest("fieldset").next("fieldset").addClass("auto-hide-div");
-  setTimeout(function () {
-    $(".top-div").hide();
-    $("fieldset").removeClass("active auto-hide-div");
-    $(".last-div").addClass("active");
-  }, 1000);
-});
+// $(document).on("click", ".auto-hide-btn", function () {
+//   $(this).closest("fieldset").next("fieldset").addClass("auto-hide-div");
+//   setTimeout(function () {
+//     $(".top-div").hide();
+//     $("fieldset").removeClass("active auto-hide-div");
+//     $(".last-div").addClass("active");
+//   }, 1000);
+// });

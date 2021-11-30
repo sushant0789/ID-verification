@@ -173,9 +173,9 @@ form {
 .first-list {
   display: flex;
   flex-direction: column;
-  padding: 50px 0;
+  padding: 50px 0 20px;
   &.padding-less {
-    padding-bottom: 40px;
+    padding-bottom: 0;
   }
   li {
     list-style: none;
@@ -196,6 +196,7 @@ form {
       color: #fff;
       margin: 0 15px 0 0;
       font-style: normal;
+      font-size: 14px;
     }
     span {
       width: 90%;
@@ -282,6 +283,9 @@ form {
 
 .padding-bottom20 {
   padding-bottom: 20px;
+}
+.padding-bottom50 {
+  padding-bottom: 50px;
 }
 .padding-top0 {
   padding-top: 0;

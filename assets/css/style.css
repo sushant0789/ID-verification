@@ -211,11 +211,11 @@ form fieldset.active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 50px 0;
+  padding: 50px 0 20px;
 }
 
 .first-list.padding-less {
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .first-list li {
@@ -252,6 +252,7 @@ form fieldset.active {
   color: #fff;
   margin: 0 15px 0 0;
   font-style: normal;
+  font-size: 14px;
 }
 
 .first-list li span {
@@ -377,6 +378,10 @@ form fieldset.active {
 
 .padding-bottom20 {
   padding-bottom: 20px;
+}
+
+.padding-bottom50 {
+  padding-bottom: 50px;
 }
 
 .padding-top0 {
